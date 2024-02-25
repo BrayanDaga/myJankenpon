@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=z, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <p>CPU Score : <span id="cpuScore">0</span> </p>
+        <div class="bloque cpu">
+            <div class="cuadro opCPU"></div>
+            <div class="cuadro opCPU"></div>
+            <div class="cuadro opCPU"></div>
+        </div>
+        <div class="mensaje">
+            <p id="resultado">PIEDRA, PAPEL O TIJERA</p>
+        </div>
+        <div class="bloque">
+            <a href="#" id="btnPiedra" class="cuadro">
+                <div class="linear"></div>
+                <img src="img/piedra.png" alt="">
+            </a>
+            <a href="#" id="btnPapel" class="cuadro">
+                <div class="linear"></div>
+                <img src="img/papel.png" alt="" srcset="">
+            </a>
+            <a href="#" id="btnTijera" class="cuadro">
+                <div class="linear"></div>
+                <img src="img/tijera.png" alt="" srcset="">
+            </a>
+        </div>
+        <p>You Score: <span id="youScore">0</span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
